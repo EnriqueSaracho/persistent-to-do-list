@@ -4,18 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- links to CSS and JS -->
     <link rel="stylesheet" href="sass/style.css" />
     <script src="js/main.js" type="module"></script>
+
     <title>To Do List</title>
   </head>
   <body>
     <main>
+
+      <!-- Section 1: New Item Entry -->
       <section class="newItemEntry">
         <form id="itemEntryForm">
           <label for="newItem">Enter a new to do item</label>
@@ -38,6 +45,8 @@
           </button>
         </form>
       </section>
+
+      <!-- Section 2: List Container -->
       <section class="listContainer">
         <div class="listTitle">
           <h1 tabindex="0">To Do List</h1>
